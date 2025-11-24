@@ -1,4 +1,4 @@
-# 프로젝트를 통해 느낀점: 협업의 본질
+# 오픈 미션을 통해 느낀점
 
 ## 프로젝트 구상 배경: 기술 스택을 넘어선 협업
 
@@ -21,6 +21,27 @@
 
 이 프로젝트는 코드는 짧지만, **'기술을 써보는 것'보다 '일을 한다'는 개발자의 본질적인 개념**에 집중하고자 했습니다.
 앞으로의 개발자 커리어는 정해진 도메인과 아키텍처 내에서, 기술 스택을 넘어선 **소통과 설계 이해 능력**이 핵심 역량이라고 확신합니다. 이 프로젝트는 그 역량을 위한 첫 훈련이었습니다.
+
+***
+
+## 프로젝트 실행 방법
+1. 파이썬, 코틀린, 자바 프로젝트 각각의 main 메서드 실행
+2. 웹페이지에서 "http://localhost:8080/dashboard" url 주소로 접속
+3. 다음과 같은 3가지 언어의 데이터가 합쳐진 JSON이 출력
+```
+{
+  "user_role": "Java Backend Developer",
+  "service_status": "Online",
+  "recent_posts": [
+    { "id": 1, "title": "Kotlin is easy", "author": "Developer Kim" },
+    { "id": 2, "title": "Spring Boot with Kotlin", "author": "Manager Lee" }
+  ],
+  "ai_recommendations": {
+    "popular_tags": ["Python", "Microservices", "AI Trend"],
+    "algorithm_version": "v1.0"
+  }
+}
+```
 
 ***
 
